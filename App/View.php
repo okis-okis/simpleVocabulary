@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace App;
 
-require_once 'App\\Errors\\ViewNotFoundException.php';
+require_once '/app/App/Errors/ViewNotFoundException.php';
 
 use App\Errors\ViewNotFoundException;
 
@@ -22,7 +22,7 @@ class View
 
     public function render()
     {
-        $header = 'App\\Views\\components\\header.html';
+        $header = '/app/App/Views/components/header.html';
 
         if(!file_exists($header)){
             throw new ViewNotFoundException();
@@ -30,7 +30,7 @@ class View
 
         include $header;
 
-        $viewPath = 'App\\Views\\' . $this->view . '.php';
+        $viewPath = '/app/App/Views/' . $this->view . '.php';
 
         if(!file_exists($viewPath)){
             throw new ViewNotFoundException();
@@ -38,7 +38,7 @@ class View
 
         include $viewPath;
 
-        $footer = 'App\\Views\\components\\footer.html';
+        $footer = '/app/App/Views/components/footer.html';
 
         if(!file_exists($footer)){
             throw new ViewNotFoundException();

@@ -8,9 +8,7 @@ declare(strict_types = 1);
 
 namespace App;
 
-use App\Libs\ListVocabulary;
-
-require_once 'App/Libs/List.php';
+require_once '/app/App/Libs/List.php';
 
 class App
 {

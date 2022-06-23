@@ -10,9 +10,9 @@ declare(strict_types = 1);
 
 //Libraries and other files
 require_once "/app/App/Router.php";
-require_once "App\App.php";
-require_once "App\Controllers\MainController.php";
-require_once "App\Errors\RouteNotFoundException.php";
+require_once "/app/App/App.php";
+require_once "/app/App/Controllers/MainController.php";
+require_once "/app/App/Errors/RouteNotFoundException.php";
 
 use App\Router;
 use App\App;
