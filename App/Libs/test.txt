@@ -1,0 +1,364 @@
+{
+  {
+    "verb": "feel",
+    "simple": "felt",
+    "participle": "felt",
+    "translate": "Чувствовать"
+  },
+  "Бороться": {
+    "verb": "fight",
+    "simple": "fought",
+    "participle": "fought",
+    "translate":
+  },
+  "Находить": {
+    "verb": "find",
+    "simple": "found",
+    "participle": "found",
+    "translate":
+  },
+  "Подходить по размеру": {
+    "verb": "fit",
+    "simple": "fit",
+    "participle": "fit",
+    "translate":
+  },
+  "Летать": {
+    "verb": "fly",
+    "simple": "flew",
+    "participle": "flown",
+    "translate":
+  },
+  "Забывать": {
+    "verb": "forget",
+    "simple": "forgot",
+    "participle": "forgotten",
+    "translate":
+  },
+  "Прощать": {
+    "verb": "forgive",
+    "simple": "forgave",
+    "participle": "forgiven",
+    "translate":
+  },
+  "Замерзать": {
+    "verb": "freeze",
+    "simple": "froze",
+    "participle": "frozen",
+    "translate":
+  },
+  "Получать": {
+    "verb": "get",
+    "simple": "got",
+    "participle": "got",
+    "translate":
+  },
+  "Давать": {
+    "verb": "give",
+    "simple": "gave",
+    "participle": "given",
+    "translate":
+  },
+  "Идти": {
+    "verb": "go",
+    "simple": "went",
+    "participle": "gone",
+    "translate":
+  },
+  "Расти": {
+    "verb": "grow",
+    "simple": "grew",
+    "participle": "grown",
+    "translate":
+  },
+  "Иметь": {
+    "verb": "have",
+    "simple": "had",
+    "participle": "had",
+    "translate":
+  },
+  "Слышать": {
+    "verb": "hear",
+    "simple": "heard",
+    "participle": "heard",
+    "translate":
+  },
+  "Прятать": {
+    "verb": "hide",
+    "simple": "hid",
+    "participle": "hidden",
+    "translate":
+  },
+  "Держать": {
+    "verb": "hold",
+    "simple": "held",
+    "participle": "held",
+    "translate":
+  },
+  "Содержать": {
+    "verb": "keep",
+    "simple": "kept",
+    "participle": "kept",
+    "translate":
+  },
+  "Знать": {
+    "verb": "know",
+    "simple": "knew",
+    "participle": "known",
+    "translate":
+  },
+  "Класть": {
+    "verb": "lay",
+    "simple": "laid",
+    "participle": "laid",
+    "translate":
+  },
+  "Вести": {
+    "verb": "lead",
+    "simple": "led",
+    "participle": "led",
+    "translate":
+  },
+  "1) Учить": {
+    "verb": "learn",
+    "simple": "learnt",
+    "participle": "learnt",
+    "translate":
+  },
+  "Оставлять": {
+    "verb": "leave",
+    "simple": "left",
+    "participle": "left",
+    "translate":
+  },
+  "Позволять": {
+    "verb": "let",
+    "simple": "let",
+    "participle": "let",
+    "translate":
+  },
+  "Лежать": {
+    "verb": "lie",
+    "simple": "lay",
+    "participle": "lain",
+    "translate":
+  },
+  "Терять": {
+    "verb": "lose",
+    "simple": "lost",
+    "participle": "lost",
+    "translate":
+  },
+  "2) Делать": {
+    "verb": "make",
+    "simple": "made",
+    "participle": "made",
+    "translate":
+  },
+  "Значить": {
+    "verb": "mean",
+    "simple": "meant",
+    "participle": "meant",
+    "translate":
+  },
+  "Встречать": {
+    "verb": "meet",
+    "simple": "met",
+    "participle": "met",
+    "translate":
+  },
+  "Ошибаться": {
+    "verb": "mistake",
+    "simple": "mistook",
+    "participle": "mistaken",
+    "translate":
+  },
+  "Платить": {
+    "verb": "pay",
+    "simple": "paid",
+    "participle": "paid",
+    "translate":
+  },
+  "Положить": {
+    "verb": "put",
+    "simple": "put",
+    "participle": "put",
+    "translate":
+  },
+  "Читать": {
+    "verb": "read",
+    "simple": "read",
+    "participle": "read",
+    "translate":
+  },
+  "Ездить верхом": {
+    "verb": "ride",
+    "simple": "rode",
+    "participle": "ridden",
+    "translate":
+  },
+  "Звенеть": {
+    "verb": "ring",
+    "simple": "rang",
+    "participle": "rung",
+    "translate":
+  },
+  "Подниматься": {
+    "verb": "rise",
+    "simple": "rose",
+    "participle": "risen",
+    "translate":
+  },
+
+  "Бежать": {
+    "verb": "run",
+    "simple": "ran",
+    "participle": "run",
+    "translate":
+  },
+  "1) Говорить": {
+    "verb": "say",
+    "simple": "said",
+    "participle": "said",
+    "translate":
+  },
+  "Видеть": {
+    "verb": "see",
+    "simple": "saw",
+    "participle": "seen",
+    "translate":
+  },
+  "Продавать": {
+    "verb": "sell",
+    "simple": "sold",
+    "participle": "sold",
+    "translate":
+  },
+  "Посылать": {
+    "verb": "send",
+    "simple": "sent",
+    "participle": "sent",
+    "translate":
+  },
+  "Ставить": {
+    "verb": "set",
+    "simple": "set",
+    "participle": "set",
+    "translate":
+  },
+  "Показывать": {
+    "verb": "show",
+    "simple": "showed",
+    "participle": "shown",
+    "translate":
+  },
+  "Петь": {
+    "verb": "sing",
+    "simple": "sang",
+    "participle": "sung",
+    "translate":
+  },
+  "Сидеть": {
+    "verb": "sit",
+    "simple": "sat",
+    "participle": "sat",
+    "translate":
+  },
+  "Спать": {
+    "verb": "sleep",
+    "simple": "slept",
+    "participle": "slept",
+    "translate":
+  },
+  "2) Говорить": {
+    "verb": "speak",
+    "simple": "spoke",
+    "participle": "spoken",
+    "translate":
+  },
+  "Тратить": {
+    "verb": "spend",
+    "simple": "spent",
+    "participle": "spent",
+    "translate":
+  },
+  "Прыгать": {
+    "verb": "spring",
+    "simple": "sprang",
+    "participle": "sprung",
+    "translate":
+  },
+  "Красть": {
+    "verb": "steal",
+    "simple": "stole",
+    "participle": "stolen",
+    "translate":
+  },
+  "Плавать": {
+    "verb": "swim",
+    "simple": "swam",
+    "participle": "swum",
+    "translate":
+  },
+  "Брать, взять": {
+    "verb": "take",
+    "simple": "took",
+    "participle": "taken",
+    "translate":
+  },
+  "2) Учить": {
+    "verb": "teach",
+    "simple": "taught",
+    "participle": "taught",
+    "translate":
+  },
+  "Рассказывать": {
+    "verb": "tell",
+    "simple": "told",
+    "participle": "told",
+    "translate":
+  },
+  "Думать": {
+    "verb": "think",
+    "simple": "thought",
+    "participle": "thought",
+    "translate":
+  },
+  "Бросать": {
+    "verb": "throw",
+    "simple": "threw",
+    "participle": "thrown",
+    "translate":
+  },
+  "Понимать": {
+    "verb": "understand",
+    "simple": "understood",
+    "participle": "understood",
+    "translate":
+  },
+  "Просыпаться": {
+    "verb": "wake",
+    "simple": "woke",
+    "participle": "woken",
+    "translate":
+  },
+  "Носить": {
+    "verb": "wear",
+    "simple": "wore",
+    "participle": "worn",
+    "translate":
+  },
+  "Выигрывать": {
+    "verb": "win",
+    "simple": "won",
+    "participle": "won",
+    "translate":
+  },
+  "Писать": {
+    "verb": "write",
+    "simple": "wrote",
+    "participle": "written",
+    "translate":
+  }
+  ]
+}

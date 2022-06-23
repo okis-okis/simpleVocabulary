@@ -1,0 +1,490 @@
+{
+  "words": [
+    {
+      "verb": "be",
+      "simple": "was",
+      "participle": "been",
+      "translate": "Быть"
+    },
+    {
+      "verb": "become",
+      "simple": "became",
+      "participle": "become",
+      "translate": "Становиться"
+    },
+    {
+      "verb": "begin",
+      "simple": "began",
+      "participle": "begun",
+      "translate": "Начинать"
+    },
+    {
+      "verb": "blow",
+      "simple": "blew",
+      "participle": "blown",
+      "translate": "Дуть"
+    },
+    {
+      "verb": "break",
+      "simple": "broke",
+      "participle": "broken",
+      "translate": "Ломать"
+    },
+    {
+      "verb": "bring",
+      "simple": "brought",
+      "participle": "brought",
+      "translate": "Приносить"
+    },
+    {
+      "verb": "build",
+      "simple": "built",
+      "participle": "built",
+      "translate": "Строить"
+    },
+    {
+      "verb": "burn",
+      "simple": "burnt",
+      "participle": "burnt",
+      "translate": "Гореть"
+    },
+    {
+      "verb": "buy",
+      "simple": "bought",
+      "participle": "bought",
+      "translate": "Покупать"
+    },
+    {
+      "verb": "catch",
+      "simple": "caught",
+      "participle": "caught",
+      "translate": "Ловить, хватать"
+    },
+    {
+      "verb": "choose",
+      "simple": "chose",
+      "participle": "chosen",
+      "translate": "Выбирать"
+    },
+    {
+      "verb": "come",
+      "simple": "came",
+      "participle": "come",
+      "translate": "Приходить"
+    },
+    {
+      "verb": "cost",
+      "simple": "cost",
+      "participle": "cost",
+      "translate": "Стоить"
+    },
+    {
+      "verb": "cut",
+      "simple": "cut",
+      "participle": "cut",
+      "translate": "Резать"
+    },
+    {
+      "verb": "do",
+      "simple": "did",
+      "participle": "done",
+      "translate": "1) Делать"
+    },
+    {
+      "verb": "draw",
+      "simple": "drew",
+      "participle": "drawn",
+      "translate": "Рисовать, тащить"
+    },
+    {
+      "verb": "dream",
+      "simple": "dreamt",
+      "participle": "dreamt",
+      "translate": "Мечтать, дремать"
+    },
+    {
+      "verb": "drink",
+      "simple": "drank",
+      "participle": "drunk",
+      "translate": "Пить"
+    },
+    {
+      "verb": "drive",
+      "simple": "drove",
+      "participle": "driven",
+      "translate": "Водить"
+    },
+    {
+      "verb": "eat",
+      "simple": "ate",
+      "participle": "eaten",
+      "translate": "Есть"
+    },
+    {
+      "verb": "fall",
+      "simple": "fell",
+      "participle": "fallen",
+      "translate": "Падать"
+    },
+    {
+      "verb": "feel",
+      "simple": "felt",
+      "participle": "felt",
+      "translate": "Чувствовать"
+    },
+    {
+      "verb": "fight",
+      "simple": "fought",
+      "participle": "fought",
+      "translate": "Бороться"
+    },
+    {
+      "verb": "find",
+      "simple": "found",
+      "participle": "found",
+      "translate": "Находить"
+    },
+    {
+      "verb": "fit",
+      "simple": "fit",
+      "participle": "fit",
+      "translate": "Подходить по размеру"
+    },
+    {
+      "verb": "fly",
+      "simple": "flew",
+      "participle": "flown",
+      "translate": "Летать"
+    },
+    {
+      "verb": "forget",
+      "simple": "forgot",
+      "participle": "forgotten",
+      "translate": "Забывать"
+    },
+    {
+      "verb": "forgive",
+      "simple": "forgave",
+      "participle": "forgiven",
+      "translate": "Прощать"
+    },
+    {
+      "verb": "freeze",
+      "simple": "froze",
+      "participle": "frozen",
+      "translate": "Замерзать"
+    },
+    {
+      "verb": "get",
+      "simple": "got",
+      "participle": "got",
+      "translate": "Получать"
+    },
+    {
+      "verb": "give",
+      "simple": "gave",
+      "participle": "given",
+      "translate": "Давать"
+    },
+    {
+      "verb": "go",
+      "simple": "went",
+      "participle": "gone",
+      "translate": "Идти"
+    },
+    {
+      "verb": "grow",
+      "simple": "grew",
+      "participle": "grown",
+      "translate": "Расти"
+    },
+    {
+      "verb": "have",
+      "simple": "had",
+      "participle": "had",
+      "translate": "Иметь"
+    },
+    {
+      "verb": "hear",
+      "simple": "heard",
+      "participle": "heard",
+      "translate": "Слышать"
+    },
+    {
+      "verb": "hide",
+      "simple": "hid",
+      "participle": "hidden",
+      "translate": "Прятать"
+    },
+    {
+      "verb": "hold",
+      "simple": "held",
+      "participle": "held",
+      "translate": "Держать"
+    },
+    {
+      "verb": "keep",
+      "simple": "kept",
+      "participle": "kept",
+      "translate": "Содержать"
+    },
+    {
+      "verb": "know",
+      "simple": "knew",
+      "participle": "known",
+      "translate": "Знать"
+    },
+    {
+      "verb": "lay",
+      "simple": "laid",
+      "participle": "laid",
+      "translate": "Класть"
+    },
+    {
+      "verb": "lead",
+      "simple": "led",
+      "participle": "led",
+      "translate": "Вести"
+    },
+    {
+      "verb": "learn",
+      "simple": "learnt",
+      "participle": "learnt",
+      "translate": "1) Учить"
+    },
+    {
+      "verb": "leave",
+      "simple": "left",
+      "participle": "left",
+      "translate": "Оставлять"
+    },
+    {
+      "verb": "let",
+      "simple": "let",
+      "participle": "let",
+      "translate": "Позволять"
+    },
+    {
+      "verb": "lie",
+      "simple": "lay",
+      "participle": "lain",
+      "translate": "Лежать"
+    },
+    {
+      "verb": "lose",
+      "simple": "lost",
+      "participle": "lost",
+      "translate": "Терять"
+    },
+    {
+      "verb": "make",
+      "simple": "made",
+      "participle": "made",
+      "translate": "2) Делать"
+    },
+    {
+      "verb": "mean",
+      "simple": "meant",
+      "participle": "meant",
+      "translate": "Значить"
+    },
+    {
+      "verb": "meet",
+      "simple": "met",
+      "participle": "met",
+      "translate": "Встречать"
+    },
+    {
+      "verb": "mistake",
+      "simple": "mistook",
+      "participle": "mistaken",
+      "translate": "Ошибаться"
+    },
+    {
+      "verb": "pay",
+      "simple": "paid",
+      "participle": "paid",
+      "translate": "Платить"
+    },
+    {
+      "verb": "put",
+      "simple": "put",
+      "participle": "put",
+      "translate": "Положить"
+    },
+    {
+      "verb": "read",
+      "simple": "read",
+      "participle": "read",
+      "translate": "Читать"
+    },
+    {
+      "verb": "ride",
+      "simple": "rode",
+      "participle": "ridden",
+      "translate": "Ездить верхом"
+    },
+    {
+      "verb": "ring",
+      "simple": "rang",
+      "participle": "rung",
+      "translate": "Звенеть"
+    },
+    {
+      "verb": "rise",
+      "simple": "rose",
+      "participle": "risen",
+      "translate": "Подниматься"
+    },
+    {
+      "verb": "run",
+      "simple": "ran",
+      "participle": "run",
+      "translate": "Бежать"
+    },
+    {
+      "verb": "say",
+      "simple": "said",
+      "participle": "said",
+      "translate": "1) Говорить"
+    },
+    {
+      "verb": "see",
+      "simple": "saw",
+      "participle": "seen",
+      "translate": "Видеть"
+    },
+    {
+      "verb": "sell",
+      "simple": "sold",
+      "participle": "sold",
+      "translate": "Продавать"
+    },
+    {
+      "verb": "send",
+      "simple": "sent",
+      "participle": "sent",
+      "translate": "Посылать"
+    },
+    {
+      "verb": "set",
+      "simple": "set",
+      "participle": "set",
+      "translate": "Ставить"
+    },
+    {
+      "verb": "show",
+      "simple": "showed",
+      "participle": "shown",
+      "translate": "Показывать"
+    },
+    {
+      "verb": "sing",
+      "simple": "sang",
+      "participle": "sung",
+      "translate": "Петь"
+    },
+    {
+      "verb": "sit",
+      "simple": "sat",
+      "participle": "sat",
+      "translate": "Сидеть"
+    },
+    {
+      "verb": "sleep",
+      "simple": "slept",
+      "participle": "slept",
+      "translate": "Спать"
+    },
+    {
+      "verb": "speak",
+      "simple": "spoke",
+      "participle": "spoken",
+      "translate": "2) Говорить"
+    },
+    {
+      "verb": "spend",
+      "simple": "spent",
+      "participle": "spent",
+      "translate": "Тратить"
+    },
+    {
+      "verb": "spring",
+      "simple": "sprang",
+      "participle": "sprung",
+      "translate": "Прыгать"
+    },
+    {
+      "verb": "steal",
+      "simple": "stole",
+      "participle": "stolen",
+      "translate": "Красть"
+    },
+    {
+      "verb": "swim",
+      "simple": "swam",
+      "participle": "swum",
+      "translate": "Плавать"
+    },
+    {
+      "verb": "take",
+      "simple": "took",
+      "participle": "taken",
+      "translate": "Брать, взять"
+    },
+    {
+      "verb": "teach",
+      "simple": "taught",
+      "participle": "taught",
+      "translate": "2) Учить"
+    },
+    {
+      "verb": "tell",
+      "simple": "told",
+      "participle": "told",
+      "translate": "Рассказывать"
+    },
+    {
+      "verb": "think",
+      "simple": "thought",
+      "participle": "thought",
+      "translate": "Думать"
+    },
+    {
+      "verb": "throw",
+      "simple": "threw",
+      "participle": "thrown",
+      "translate": "Бросать"
+    },
+    {
+      "verb": "understand",
+      "simple": "understood",
+      "participle": "understood",
+      "translate": "Понимать"
+    },
+    {
+      "verb": "wake",
+      "simple": "woke",
+      "participle": "woken",
+      "translate": "Просыпаться"
+    },
+    {
+      "verb": "wear",
+      "simple": "wore",
+      "participle": "worn",
+      "translate": "Носить"
+    },
+    {
+      "verb": "win",
+      "simple": "won",
+      "participle": "won",
+      "translate": "Выигрывать"
+    },
+    {
+      "verb": "write",
+      "simple": "wrote",
+      "participle": "written",
+      "translate": "Писать"
+    }
+  ]
+}
