@@ -1,14 +1,11 @@
-<pre>
-    <?php var_dump($_POST)?>
-</pre>
 <div class="container mt-3">
     <h3 class="text-center">
+        <?=$_SESSION['id']+1??null?> | 
         <?=$this->params['translate']??null?>
     </h3>
     <form action="/tests/order" method="post">
         <div class="form-group">
             <label for="verb">VERB</label>
-            <div class="input-group mb-3">
                 <input
                 type="text"
                 class="form-control <?=$this->params['verbResult']??null?>"
@@ -28,16 +25,15 @@
                         Wrong answer! Right answer is '<?=$this->params['verb']??null?>'
                     </div>
                 <?php endif;?>
-            </div>  
-            <button type="submit" class="btn btn-outline-primary m-1" name="hintVerb">Подсказка</button>  
-            <?php if(isset($_POST['hintVerb'])):?>
-                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    Right answer is <strong><?=$this->params['verb']??null?></strong>
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            <?php endif;?>        
+                <button type="submit" class="btn btn-outline-primary m-1" name="hintVerb">Подсказка</button>  
+                <?php if(isset($_POST['hintVerb'])):?>
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        Right answer is <strong><?=$this->params['verb']??null?></strong>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                <?php endif;?>       
         </div>
         <div class="form-group">
             <label for="simple">PAST SIMPLE</label>

@@ -43,7 +43,7 @@
         <?php foreach($this->params[0] as $key=>$values):?>
             <div class="mb-3 card">
                 <div class="card-header bg-primary text-white">
-                    <?= $key.' | '.$values['translate']?>
+                    <?= ($key+1).' | '.$values['translate']?>
                 </div>
                 <div class="card-body">
                     <p>VERB: <?= $values['verb']?></p>
