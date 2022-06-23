@@ -37,21 +37,21 @@ class Main{
         }
         elseif(isset($_POST['check'])){
             $arr = ListVocabulary::current();
-            if($_POST['verb'] == $arr['verb']){
+            if(strtolower($_POST['verb']) == $arr['verb']){
                 $arr['verbResult'] = 'is-valid'; 
             }
             else{
                 $arr['verbResult'] = 'is-invalid'; 
             }
 
-            if($_POST['simple'] == $arr['simple']){
+            if(strtolower($_POST['simple']) == $arr['simple']){
                 $arr['simpleResult'] = 'is-valid'; 
             }
             else{
                 $arr['simpleResult'] = 'is-invalid'; 
             }
 
-            if($_POST['participle'] == $arr['participle']){
+            if(strtolower($_POST['participle']) == $arr['participle']){
                 $arr['participleResult'] = 'is-valid'; 
             }
             else{
