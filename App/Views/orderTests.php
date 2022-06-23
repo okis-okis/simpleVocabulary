@@ -12,6 +12,7 @@
               placeholder="Enter verb form"
               name='verb'
               value='<?=$_POST['verb']??null?>'
+              autocomplete="off"
             />
             <div class="valid-feedback">
                 Looks good!
@@ -29,6 +30,7 @@
               placeholder="Enter past simple form"
               name='simple'
               value='<?=$_POST['simple']??null?>'
+              autocomplete="off"
             />
             <div class="valid-feedback">
                 Looks good!
@@ -46,6 +48,7 @@
               placeholder="Enter past participle form"
               name='participle'
               value='<?=$_POST['participle']??null?>'
+              autocomplete="off"
             />
             <div class="valid-feedback">
                 Looks good!
