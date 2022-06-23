@@ -17,19 +17,28 @@
                 />
             
                 <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button">?</button>
+                    <button class="btn btn-primary" name='hintVerb' type="button">?</button>
                 </div>
-            </div>
 
-            <?php if(isset($this->params['verbResult']) && $this->params['verbResult'] == 'is-valid'):?>
-                <div class="valid-feedback">
-                    Looks good!
-                </div>
-            <?php elseif(isset($this->params['verbResult']) && $this->params['verbResult'] == 'is-invalid'):?>
-                <div class="invalid-feedback">
-                    Wrong answer! Right answer is '<?=$this->params['verb']??null?>'
-                </div>
-            <?php endif;?>
+                <?php if(isset($this->params['verbResult']) && $this->params['verbResult'] == 'is-valid'):?>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                <?php elseif(isset($this->params['verbResult']) && $this->params['verbResult'] == 'is-invalid'):?>
+                    <div class="invalid-feedback">
+                        Wrong answer! Right answer is '<?=$this->params['verb']??null?>'
+                    </div>
+                <?php endif;?>
+
+                <?php if(isset($_POST['hintVerb'])):?>
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        Right answer is <strong><?=$this->params['verb']??null?></strong>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                <?php endif;?>
+            </div>            
         </div>
         <div class="form-group">
             <label for="simple">PAST SIMPLE</label>
