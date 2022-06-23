@@ -5,21 +5,31 @@
     <form action="/tests/order" method="post">
         <div class="form-group">
             <label for="verb">VERB</label>
-            <input
-              type="text"
-              class="form-control <?=$this->params['verbResult']??null?>"
-              id="verb"
-              placeholder="Enter verb form"
-              name='verb'
-              value='<?=$_POST['verb']??null?>'
-              autocomplete="off"
-            />
-            <div class="valid-feedback">
-                Looks good!
+            <div class="input-group mb-3">
+                <input
+                type="text"
+                class="form-control <?=$this->params['verbResult']??null?>"
+                id="verb"
+                placeholder="Enter verb form"
+                name='verb'
+                value='<?=$_POST['verb']??null?>'
+                autocomplete="off"
+                />
+            
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button">?</button>
+                </div>
             </div>
-            <div class="invalid-feedback">
-                Wrong answer!
-            </div>
+
+            <?php if(isset($this->params['verbResult']) && $this->params['verbResult'] == 'is-valid'):?>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            <?php elseif(isset($this->params['verbResult']) && $this->params['verbResult'] == 'is-invalid'):?>
+                <div class="invalid-feedback">
+                    Wrong answer! Right answer is '<?=$this->params['verb']??null?>'
+                </div>
+            <?php endif;?>
         </div>
         <div class="form-group">
             <label for="simple">PAST SIMPLE</label>
@@ -32,12 +42,15 @@
               value='<?=$_POST['simple']??null?>'
               autocomplete="off"
             />
-            <div class="valid-feedback">
-                Looks good!
-            </div>
-            <div class="invalid-feedback">
-                Wrong answer!
-            </div>
+            <?php if(isset($this->params['simpleResult']) && $this->params['simpleResult'] == 'is-valid'):?>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            <?php elseif(isset($this->params['simpleResult']) && $this->params['simpleResult'] == 'is-invalid'):?>
+                <div class="invalid-feedback">
+                    Wrong answer! Right answer is '<?=$this->params['simple']??null?>'
+                </div>
+            <?php endif;?>
         </div>
         <div class="form-group">
             <label for="participle">PAST PARTICIPLE</label>
@@ -50,12 +63,15 @@
               value='<?=$_POST['participle']??null?>'
               autocomplete="off"
             />
-            <div class="valid-feedback">
-                Looks good!
-            </div>
-            <div class="invalid-feedback">
-                Wrong answer!
-            </div>
+            <?php if(isset($this->params['participleResult']) && $this->params['participleResult'] == 'is-valid'):?>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            <?php elseif(isset($this->params['participleResult']) && $this->params['participleResult'] == 'is-invalid'):?>
+                <div class="invalid-feedback">
+                    Wrong answer! Right answer is '<?=$this->params['participle']??null?>'
+                </div>
+            <?php endif;?>
         </div>
         <div class="text-center">
             <button type="submit" class="btn btn-primary m-1" name="previous">Предыдущий</button>
