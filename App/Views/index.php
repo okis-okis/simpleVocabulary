@@ -8,7 +8,7 @@
     display: none;
   }
   .card-list{
-    display:contents;
+    display: block;
   }
 }
 </style>
