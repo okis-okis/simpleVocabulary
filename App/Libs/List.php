@@ -9,7 +9,7 @@ use App\Errors\VocabularyNotFoundException;
 class ListVocabulary{
 
     public static function getList(): array{
-        $fileName = getcwd().'\App\Libs\vocabulary.json';
+        $fileName = getcwd().'/App/Libs/vocabulary.json';
 
         if(!file_exists($fileName)){
             throw new VocabularyNotFoundException();
