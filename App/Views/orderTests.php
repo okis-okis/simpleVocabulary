@@ -1,3 +1,6 @@
+<pre>
+    <?php var_dump($_POST)?>
+</pre>
 <div class="container mt-3">
     <h3 class="text-center">
         <?=$this->params['translate']??null?>
@@ -17,7 +20,7 @@
                 />
             
                 <div class="input-group-append">
-                    <button class="btn btn-primary" name='hintVerb' type="button">?</button>
+                    <button class="btn btn-outline-primary" name='hintVerb' type="button">?</button>
                 </div>
 
                 <?php if(isset($this->params['verbResult']) && $this->params['verbResult'] == 'is-valid'):?>
