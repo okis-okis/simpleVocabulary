@@ -22,7 +22,7 @@
                     </div>
                 <?php elseif(isset($this->params['verbResult']) && $this->params['verbResult'] == 'is-invalid'):?>
                     <div class="invalid-feedback">
-                        Wrong answer! Right answer is '<?=$this->params['verb']??null?>'
+                        Wrong answer!
                     </div>
                 <?php endif;?>
                 <button type="submit" class="btn btn-outline-primary m-1" name="hintVerb">Подсказка</button>  
@@ -52,7 +52,7 @@
                 </div>
             <?php elseif(isset($this->params['simpleResult']) && $this->params['simpleResult'] == 'is-invalid'):?>
                 <div class="invalid-feedback">
-                    Wrong answer! Right answer is '<?=$this->params['simple']??null?>'
+                    Wrong answer!
                 </div>
             <?php endif;?>
             <button type="submit" class="btn btn-outline-primary m-1" name="hintSimple">Подсказка</button>  
@@ -82,7 +82,7 @@
                 </div>
             <?php elseif(isset($this->params['participleResult']) && $this->params['participleResult'] == 'is-invalid'):?>
                 <div class="invalid-feedback">
-                    Wrong answer! Right answer is '<?=$this->params['participle']??null?>'
+                    Wrong answer!
                 </div>
             <?php endif;?>
             <button type="submit" class="btn btn-outline-primary m-1" name="hintParticiple">Подсказка</button>  
