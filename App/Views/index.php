@@ -29,7 +29,7 @@
         <tbody>
             <?php foreach($this->params[0] as $key=>$values):?>
             <tr>
-            <th scope="row"><?=$key?></th>
+            <th scope="row"><?=$key+1?></th>
             <td><?= $values['verb']?></td>
             <td><?= $values['simple']?></td>
             <td><?= $values['participle']?></td>
