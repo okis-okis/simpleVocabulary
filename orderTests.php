@@ -20,7 +20,7 @@
                 />
             
                 <div class="input-group-append">
-                    <button class="btn btn-outline-primary" name='hintVerb' type="submit">?</button>
+                    <button type="submit" class="btn btn-outline-primary m-1" name="hintVerb">?</button>
                 </div>
 
                 <?php if(isset($this->params['verbResult']) && $this->params['verbResult'] == 'is-valid'):?>
