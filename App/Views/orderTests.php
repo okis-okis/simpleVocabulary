@@ -18,10 +18,6 @@
                 value='<?=$_POST['verb']??null?>'
                 autocomplete="off"
                 />
-            
-                <div class="input-group-append">
-                    <button type="submit" class="btn btn-outline-primary m-1" name="hintVerb">?</button>
-                </div>
 
                 <?php if(isset($this->params['verbResult']) && $this->params['verbResult'] == 'is-valid'):?>
                     <div class="valid-feedback">
@@ -32,16 +28,16 @@
                         Wrong answer! Right answer is '<?=$this->params['verb']??null?>'
                     </div>
                 <?php endif;?>
-
-                <?php if(isset($_POST['hintVerb'])):?>
-                    <div class="alert alert-success alert-dismissible fade show" role="alert">
-                        Right answer is <strong><?=$this->params['verb']??null?></strong>
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                <?php endif;?>
-            </div>            
+            </div>  
+            <button type="submit" class="btn btn-outline-primary m-1" name="hintVerb">Подсказка</button>  
+            <?php if(isset($_POST['hintVerb'])):?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    Right answer is <strong><?=$this->params['verb']??null?></strong>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            <?php endif;?>        
         </div>
         <div class="form-group">
             <label for="simple">PAST SIMPLE</label>
@@ -63,6 +59,15 @@
                     Wrong answer! Right answer is '<?=$this->params['simple']??null?>'
                 </div>
             <?php endif;?>
+            <button type="submit" class="btn btn-outline-primary m-1" name="hintSimple">Подсказка</button>  
+            <?php if(isset($_POST['hintSimple'])):?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    Right answer is <strong><?=$this->params['simple']??null?></strong>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            <?php endif;?>
         </div>
         <div class="form-group">
             <label for="participle">PAST PARTICIPLE</label>
@@ -82,6 +87,15 @@
             <?php elseif(isset($this->params['participleResult']) && $this->params['participleResult'] == 'is-invalid'):?>
                 <div class="invalid-feedback">
                     Wrong answer! Right answer is '<?=$this->params['participle']??null?>'
+                </div>
+            <?php endif;?>
+            <button type="submit" class="btn btn-outline-primary m-1" name="hintParticiple">Подсказка</button>  
+            <?php if(isset($_POST['hintParticiple'])):?>
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    Right answer is <strong><?=$this->params['participle']??null?></strong>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
             <?php endif;?>
         </div>
